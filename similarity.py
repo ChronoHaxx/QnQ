@@ -1,5 +1,7 @@
 from difflib import SequenceMatcher
 import numpy as np
+from pathlib import Path
+
 def levenshtein_ratio_and_distance(s, t, ratio_calc = False): #levenshtein ratio to check similarity of sentences
     """ levenshtein_ratio_and_distance:
         Calculates levenshtein distance between two strings.
@@ -45,40 +47,48 @@ def levenshtein_ratio_and_distance(s, t, ratio_calc = False): #levenshtein ratio
         # This is the minimum number of edits needed to convert string a to string b
         return "The strings are {} edits away".format(distance[row][col])
 
-global string2
+def mostSimilarSentencesStringFind(string1, string2, path_in_str) :   
+    if string1 in string2 : # simple subset check for accurate copy paste question queries
+        print(string1)
+    else: 
+        # algorithm to find ratio of similarity of substrings in a string (based on existence of words?) , refer : https://stackoverflow.com/questions/48117508/how-to-find-a-similar-substring-inside-a-large-string-with-a-similarity-score-in?noredirect=1&lq=1
+        string1 = string1.split(' ')
+        string2 = string2.split(' ')
+        string1Length = len(string1)
+        #print(string1Length)
+        indices = [i for i, x in enumerate(string2) if x == string1[0] or x == string1[1] or x == string1[2] or x == string1[3] or x == string1[4] ] # get all occurences of string1[0], long repeates or is a lazy fix.. idk what happen
+        #print(indices)
+        similarityScoresLists = [None] * len(indices)
+        for i in range(len(indices)):
+            similarityScoresLists[i] = [None] * 2
+        i = 0
+        for x in indices :
+            string2Joined = ' '.join(string2[x:x+string1Length-1]) # join the string1Length number of words after 1st index.
+            #print(string2Joined)
+            ratio = levenshtein_ratio_and_distance(' '.join(string1),string2Joined,ratio_calc = True)
+            similarityScoresLists[i][0] = x
+            similarityScoresLists[i][1] = ratio
+            i += 1
+        #print(similarityScoresLists)
+        mostSimilarSentencesList = max(similarityScoresLists, key=lambda x: x[1])
+        #print(mostSimilarSentencesList) 
+        mostSimilarSentencesIndex = mostSimilarSentencesList[0]
+        mostSimilarSentencesRatio = mostSimilarSentencesList[1]
+        print('Found at index of :' + str(mostSimilarSentencesIndex) + ' with ratio of ' + str(mostSimilarSentencesRatio) + ' from pdf file :' + path_in_str)
+        mostSimilarSentencesString = ' '.join(string2[int(mostSimilarSentencesIndex):mostSimilarSentencesIndex + string1Length - 1])
+        print(mostSimilarSentencesString)
+        return(str('Found at index of :' + str(mostSimilarSentencesIndex) + ' with ratio of ' + str(mostSimilarSentencesRatio)))
 
-string1 = 'Explain why Si has a much higher melting point than any of the other elements in wot the period.'
+string1 = 'Bromine reacts with the element A to form a compound with empirical formula ABr3. The percentage composition by mass of ABr3 is A, 4.31; Br, 95.69.'
 
-with open('test.txt', 'r', encoding="utf8") as file:
-    data = file.read()
-    string2 = str(data).replace('\n', '') # remove newline so  
+# iterate through all txt files in chemistrytxt folder
+pathlist = Path('textfiles\\chemistry').glob('**/*.txt') 
+for path in pathlist:
+    # because path is object not string
+    path_in_str = str(path)
+    # print(path_in_str)
+    with open(path_in_str, 'r', encoding="utf8") as file:
+        data = file.read()
+        string2 = str(data).replace('\n', '') # remove newline so  
+    mostSimilarSentencesStringFind(string1,string2,path_in_str)
     
-if string1 in string2 : # simple subset check for accurate copy paste question queries
-    print(string1)
-else: 
-    # algorithm to find ratio of similarity of substrings in a string (based on existence of words?) , refer : https://stackoverflow.com/questions/48117508/how-to-find-a-similar-substring-inside-a-large-string-with-a-similarity-score-in?noredirect=1&lq=1
-    string1 = string1.split(' ')
-    string2 = string2.split(' ')
-    string1Length = len(string1)
-    print(string1Length)
-    indices = [i for i, x in enumerate(string2) if x == string1[0] ] # get all occurences of string1[0]
-    print(indices)
-    similarityScoresLists = [None] * len(indices)
-    for i in range(len(indices)):
-        similarityScoresLists[i] = [None] * 2
-    i = 0
-    for x in indices :
-        string2Joined = ' '.join(string2[x:x+string1Length-1]) # join the string1Length number of words after 1st index.
-        print(string2Joined)
-        ratio = levenshtein_ratio_and_distance(' '.join(string1),string2Joined,ratio_calc = True)
-        similarityScoresLists[i][0] = x
-        similarityScoresLists[i][1] = ratio
-        i += 1
-    print(similarityScoresLists)
-    mostSimilarSentencesList = max(similarityScoresLists, key=lambda x: x[1])
-    print(mostSimilarSentencesList) 
-    mostSimilarSentencesIndex = mostSimilarSentencesList[0]
-    mostSimilarSentencesRatio = mostSimilarSentencesList[1]
-    print('Found at index of :' + str(mostSimilarSentencesIndex) + ' with ratio of ' + str(mostSimilarSentencesRatio))
-    mostSimilarSentencesString = ' '.join(string2[int(mostSimilarSentencesIndex):mostSimilarSentencesIndex + string1Length - 1])
-    print(mostSimilarSentencesString)
