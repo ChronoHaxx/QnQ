@@ -11,12 +11,5 @@
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/) [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/) 
 
-## App flowchart
-```mermaid
-graph LR
-A[Mobile App] -- queries --> B[Server]
-B -- parse --> C[similarity.py]
-C -- most similar questions--> A
-```
 ## Licenses
 This project is licensed under the MIT License [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
