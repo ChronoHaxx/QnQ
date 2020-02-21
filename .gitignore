@@ -1,5 +1,7 @@
 #directory
 chemistry/
+chemistrytxtp2/
+textfiles/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

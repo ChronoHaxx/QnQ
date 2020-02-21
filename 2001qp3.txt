@@ -1,0 +1,517 @@
+Candidate Name 
+
+Centre Number
+
+Candidate
+
+Number
+
+CAMBRIDGE INTERNATIONAL EXAMINATIONS 
+
+General Certificate of Education Advanced Subsidiary Level
+
+8701/3
+
+OCTOBER/NOVEMBER SESSION 2001
+
+1 hour 15 minutes
+
+CHEMISTRY
+PAPER 3  Practical Test
+
+Candidates answer on the question paper.
+Additional materials:
+
+As listed in Instructions to Supervisors
+
+TIME
+
+1 hour 15 minutes
+
+INSTRUCTIONS TO CANDIDATES
+
+Write your name, Centre number and candidate number in the spaces at the top of this page.
+
+Answer all questions.
+
+Write your answers in the spaces provided on the question paper.
+
+INFORMATION FOR CANDIDATES
+
+The number of marks is given in brackets [  ] at the end of each question or part question.
+
+You may use a calculator.
+
+You are advised to show all working in calculations.
+
+Use of a Data Booklet is unnecessary.
+
+Qualitative analysis notes are printed on pages 6 and 7.
+
+FOR EXAMINER’S USE
+
+1
+
+2
+
+TOTAL
+
+This question paper consists of 7 printed pages and 1 blank page.
+
+SB (SLC) S07530/1
+© CIE 2001
+
+[Turn over
+
+1
+
+FC 1 is a solution containing 16.75 g dm–3 of hydrated sodium carbonate, Na2CO3.xH2O.
+FC 2 is 0.125 mol dm–3 hydrochloric acid, HCl.
+
+2
+
+Examiner’s
+
+For
+
+Use
+
+You are required to titrate the sodium carbonate solution with the acid and use your results to
+determine the mass of water in the hydrated sodium carbonate.
+
+(a) Pipette  25.0 cm3 of  FC  1 into  a  conical  flask  and  add  a  few  drops  of  the  indicator
+
+provided.
+
+Run FC 2 from the burette until the appropriate colour change for the indicator you are
+using is achieved. This is the end-point of the titration.
+Record your burette readings in Table 1.1.
+
+Repeat  the  titration  as  many  times  as  you  think  necessary  to  obtain  accurate
+results.
+Make certain that the recorded results show the precision of your practical work.
+
+Table 1.1 Titration of FC 1 with FC 2
+
+The indicator used in the titration was  …………………………………………… 
+
+Final burette reading / cm3
+
+Initial burette reading / cm3
+
+Volume of FC 2 used / cm3
+
+Summary
+
+25.0 cm3 of FC 1 reacted with ………………. cm3 of FC 2.
+
+Show which results you used to obtain this volume of FC 2 by placing a tick (✓) under the
+readings in Table 1.1.
+
+[10]
+
+8701/3/O/N/01
+
+You are advised to show full working in all parts of the calculations
+
+3
+
+Examiner’s
+
+For
+
+Use
+
+(b) Calculate how many moles of the acid were run from the burette into the conical flask
+
+during the titration of FC 1 with FC 2.
+
+(c) Calculate the number of moles of anhydrous sodium carbonate, Na2CO3, in 25.0 cm3 of
+
+FC 1.
+
+Na2CO3 +  2HCl → 2NaCl +  H2O  +  CO2
+
+(d) Calculate the concentration, in mol dm–3, of sodium carbonate, Na2CO3, in FC 1.
+
+(e) Calculate the mass of anhydrous sodium carbonate present in 1.00 dm3 of FC 1.
+
+[Ar: Na, 23.0; C, 12.0; O, 16.0.]
+
+(f) Calculate the mass of water present in the hydrated sodium carbonate.
+
+[1]
+
+[1]
+
+[1]
+
+[1]
+
+[1]
+
+[Total : 15]
+
+8701/3/O/N/01
+
+[Turn over
+
+2
+
+The solution FC 3 contains two cations and one anion from the following list: (Al 3+, NH4
++,
+Ba2+,  Ca2+,  Cr3+,  Cu2+,  Fe2+,  Fe3+,  Pb2+,  Mg2+,  Mn2+,  Zn2+;  CO3
+2–,  Cl –,  Br –,  I–,
+NO3
+
+2–,  CrO4
+
+2–, SO3
+
+–, NO2
+
+–, SO4
+
+2–).
+
+4
+
+Examiner’s
+
+For
+
+Use
+
+In all tests, the reagent should be added gradually until no further change is observed,
+with shaking after each addition.
+Record  your  observations  and  the  deductions  you  make  from  them  in  the  spaces
+provided.
+Your answers should include
+•
+•
+
+details of colour changes and precipitates formed,
+the names of gases evolved and details of the test used to identify each one.
+
+You  should  indicate  clearly  at  what  stage  in  a  test  a  change  occurs,  writing  any
+deductions you make alongside the observations on which they are based.
+
+Marks are not given for chemical equations.
+No additional or confirmatory tests for ions present should be attempted.
+
+Candidates  are  reminded  that  definite  deductions  may  be  made  from  tests
+where there appears to be no reaction.
+
+Test
+
+Observations [5]
+
+Deductions [4]  
+
+(a) To 2 cm depth of
+
+FC 3 in a test-tube,
+add dilute nitric acid.
+
+(b) To 2 cm depth of
+FC 3 in a boiling-
+tube, add aqueous
+sodium hydroxide.
+
+Warm the solution
+and retain for test
+(c).
+
+(c) Cool the solution
+
+remaining from test
+(b), add aluminium
+foil and cautiously
+warm again.
+
+8701/3/O/N/01
+
+Test
+
+Observations
+
+Deductions
+
+5
+
+Examiner’s
+
+For
+
+Use
+
+(d) To 2 cm depth of
+
+FC 3 in a test-tube,
+add aqueous
+potassium iodide.
+
+(e) To 2 cm depth of
+FC 3 in a boiling-
+tube, add dilute
+aqueous ammonia
+until in excess.
+
+Filter the mixture
+and then add dilute
+nitric acid drop by
+drop to neutralise
+the solution and
+then in excess.
+
+Summary
+
+The cations present in FC 3 are …………… and ……………
+
+The anion in FC 3 is ……………
+
+[1]
+
+[Total : 10]
+
+8701/3/O/N/01
+
+[Turn over
+
+NaOH(aq)
+
+white ppt.
+soluble in excess
+
+ammonia produced on heating
+
+reaction with
+
+NH3(aq)
+
+white ppt.
+insoluble in excess
+
+no ppt. (if reagents are pure)
+
+no ppt.
+
+white ppt. with high [Ca2+ (aq)]
+
+no ppt.
+
+chromium(III),
+Cr3+(aq)
+
+grey-green ppt. soluble in excess
+giving dark green solution
+
+grey-green ppt.
+insoluble in excess
+
+6
+
+QUALITATIVE ANALYSIS NOTES
+
+[Key: ppt. = precipitate.]
+
+1
+
+Reactions of aqueous cations
+
+ion
+
+aluminium,
+Al 3+(aq)
+
+ammonium,
+NH4
+
++(aq)
+
+barium,
+Ba2+(aq)
+
+calcium,
+Ca2+(aq)
+
+copper(II),
+Cu2+(aq)
+
+iron(II),
+Fe2+(aq)
+
+iron(III),
+Fe3+(aq)
+
+lead(II),
+Pb2+(aq)
+
+magnesium,
+Mg2+(aq)
+
+pale blue ppt.
+insoluble in excess
+
+green ppt.
+insoluble in excess
+
+red-brown ppt.
+insoluble in excess
+
+white ppt.
+soluble in excess
+
+white ppt.
+insoluble in excess
+
+manganese(II),
+Mn2+(aq)
+
+off-white ppt.
+insoluble in excess
+
+zinc,
+Zn2+(aq)
+
+white ppt.
+soluble in excess
+
+blue ppt. soluble in excess
+giving dark blue solution
+
+green ppt.
+insoluble in excess
+
+red-brown ppt.
+insoluble in excess
+
+white ppt.
+insoluble in excess
+
+white ppt.
+insoluble in excess
+
+off-white ppt.
+insoluble in excess
+
+white ppt.
+soluble in excess
+
+[Lead(II) ions can be distinguished from aluminium ions by the insolubility of lead(II) chloride.]
+
+8701/3/O/N/01
+
+2
+
+Reactions of anions
+
+7
+
+ion
+
+carbonate,
+CO3
+
+2–
+
+chromate(VI)
+CrO4
+
+2–(aq)
+
+chloride,
+Cl –(aq)
+
+bromide,
+Br–(aq)
+
+iodide,
+I–(aq)
+
+nitrate,
+NO3
+nitrite,
+NO2
+
+–(aq)
+
+–(aq)
+
+sulphate,
+2–(aq)
+SO4
+sulphite,
+SO3
+
+2–(aq)
+
+CO2 liberated by dilute acids
+
+reaction
+
+yellow solution turns orange with H+(aq);
+gives yellow ppt. with Ba2+(aq);
+gives bright yellow ppt. with Pb2+(aq)
+
+gives white ppt. with Ag+(aq) (soluble in NH3(aq));
+gives white ppt. with Pb2+(aq)
+
+gives cream ppt. with Ag+(aq) (partially soluble in NH3(aq));
+gives white ppt. with Pb2+(aq)
+
+gives yellow ppt. with Ag+(aq) (insoluble in NH3(aq));
+gives yellow ppt. with Pb2+(aq)
+
+NH3 liberated on heating with OH–(aq) and Al foil
+
+NH3 liberated on heating with OH–(aq) and Al foil,
+NO liberated by dilute acids
+(colourless NO → (pale) brown NO2 in air)
+gives white ppt. with Ba2+(aq) or with Pb2+(aq) (insoluble in excess
+dilute strong acid)
+
+SO2 liberated with dilute acids;
+gives white ppt. with Ba2+(aq) (soluble in excess dilute strong acid)
+
+3
+
+Tests for gases
+
+gas
+
+ammonia, NH3
+carbon dioxide, CO2
+
+chlorine, Cl 2
+
+hydrogen, H2
+
+oxygen, O2
+
+test and test result
+
+turns damp red litmus paper blue
+
+gives a white ppt. with limewater
+(ppt. dissolves with excess CO2)
+
+bleaches damp litmus paper
+
+‘pops’ with a lighted splint
+
+relights a glowing splint
+
+sulphur dioxide, SO2
+
+turns potassium dichromate(VI) (aq) from orange to green
+
+8701/3/O/N/01
+
+8
+
+BLANK PAGE
+
+8701/3/O/N/01
+
+
