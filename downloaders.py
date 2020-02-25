@@ -1,7 +1,7 @@
 import requests 
 from urls import links # extract links that contains pdf downloads urls
 from pathlib import Path
-p = Path("chemistry").resolve() # find windows path to current dir
+p = Path("mathematics").resolve() # find windows path to current dir
 
 for link in links :
 

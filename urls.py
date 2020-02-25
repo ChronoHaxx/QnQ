@@ -1,7 +1,7 @@
 import requests# to download the html file
 from bs4 import BeautifulSoup #to parse html file
 
-url = "https://pastpapers.papacambridge.com/?dir=Cambridge%20International%20Examinations%20%28CIE%29/AS%20and%20A%20Level/Chemistry%20%289701%29"
+url = "https://pastpapers.papacambridge.com/?dir=Cambridge%20International%20Examinations%20%28CIE%29/AS%20and%20A%20Level/Mathematics%20%289709%29"
 page = requests.get(url)
 soup = BeautifulSoup(page.content, 'html.parser')
 

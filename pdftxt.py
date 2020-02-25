@@ -28,7 +28,7 @@ def extract_text_from_pdf(pdf_path):
     
 if __name__ == '__main__':
     #file1.write(extract_text_from_pdf('python.pdf'))
-    pathlist = Path('chemistry').glob('**/*.pdf') 
+    pathlist = Path('mathematics').glob('**/*.pdf') 
     for path in pathlist:
         # because path is object not string
         path_in_str = str(path) # path to pdf files
@@ -36,4 +36,7 @@ if __name__ == '__main__':
         print(path_in_str)
         if path_in_str.endswith('.pdf'):
             file1 = open(path_to_txt,"w", encoding="utf-8") 
-            file1.write(str(extract_text(path_in_str)))
+            try :
+                file1.write(str(extract_text(path_in_str)))
+            except:
+                continue

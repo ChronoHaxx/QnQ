@@ -80,10 +80,13 @@ def mostSimilarSentencesStringFind(string1, string2, path_in_str) :
         print('Found at index of :' + str(mostSimilarSentencesIndex) + ' with ratio of ' + str(mostSimilarSentencesRatio) + ' from pdf file :' + path_in_str)
         mostSimilarSentencesString = ' '.join(string2[int(mostSimilarSentencesIndex):mostSimilarSentencesIndex + string1Length - 1])
         print(mostSimilarSentencesString)
+        print("Similarity ratio :" + mostSimilarSentencesRatio)
+        print("\n")
         return(mostSimilarSentencesRatio)
 
-string1 = 'Carbon and silicon have the same outer electronic  structure.'
-
+string1 = """Sir James Jeans, who was a great populariser of science, once described an atom of carbon
+as being like six bees buzzing around a space the size of a football stadium.
+"""
 # iterate through all txt files in chemistrytxt folder
 pathlist = Path('textfiles\\chemistry').glob('**/*.txt') 
 for path in pathlist:
